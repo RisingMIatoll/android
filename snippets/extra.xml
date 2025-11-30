@@ -8,10 +8,10 @@
            revision="refs/heads/bka" />
 
   <remote  name="evo-codeberg"
-           fetch="https://codeberg.org/AviumUI"
+           fetch="https://codeberg.org/AbdoElbanaa"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/avium-16" />
+           revision="refs/heads/16" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="evo" />
@@ -33,5 +33,5 @@
   <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
 
   <!-- Vendor -->
-  <project path="vendor/gms" name="vendor_gms" remote="evo-codeberg" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms_old" remote="evo-codeberg" clone-depth="1" />
 </manifest>
