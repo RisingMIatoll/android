@@ -8,10 +8,10 @@
            revision="refs/heads/bka" />
 
   <remote  name="evo-codeberg"
-           fetch="https://codeberg.org/Evolution-X"
+           fetch="https://codeberg.org/AviumUI"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/bka" />
+           revision="refs/heads/avium-16" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="evo" />
